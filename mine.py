@@ -1,8 +1,9 @@
 
 secret_dogs = ['Варя','Ася','Бристоль','Лапка','Лилу','Черника','Леля']
 secret_dogs = sorted(secret_dogs)
-# print('sorted(secret_dogs)',sorted(secret_dogs) )
+print('sorted(secret_dogs)',sorted(secret_dogs) )
 guess_dogs = []
+
 
 
 
@@ -21,7 +22,7 @@ while True:
                 print (f"Вы угадали всех собак! Вот они слева направо: {', '.join(guess_dogs)} " )
                 break
             print ('Вы угадали!')     
-    #   print("guess_dogs", guess_dogs)
+        print("guess_dogs", guess_dogs)
     else:
         print ('Фууу...')
         break

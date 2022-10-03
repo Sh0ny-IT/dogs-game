@@ -1,8 +1,9 @@
 
 secret_dogs = ['Варя','Ася','Бристоль','Лапка','Лилу','Черника','Леля']
 secret_dogs = sorted(secret_dogs)
-# print('sorted(secret_dogs)',sorted(secret_dogs) )
+print('sorted(secret_dogs)',sorted(secret_dogs) )
 guess_dogs = []
+
 
 
 
